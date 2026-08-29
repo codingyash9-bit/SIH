@@ -1,0 +1,61 @@
+/* Antigravity Light Mode — Tiranga Design System Tokens & Utilities */
+
+:root {
+  --tiranga-saffron: #FF9933;
+  --tiranga-saffron-dark: #E67E00;
+  --tiranga-saffron-subtle: rgba(255, 153, 51, 0.12);
+  --tiranga-white: #FFFFFF;
+  --tiranga-green: #138808;
+  --tiranga-green-dark: #0E6606;
+  --tiranga-green-subtle: rgba(19, 136, 8, 0.12);
+  --tiranga-navy: #000080;
+  --tiranga-navy-deep: #0A1931;
+  --tiranga-gold: #D4AF37;
+  --tiranga-gold-subtle: rgba(212, 175, 55, 0.15);
+
+  --gradient-tiranga: linear-gradient(135deg, #FF9933 0%, #F57C00 42%, #138808 100%);
+  --gradient-tiranga-h: linear-gradient(90deg, #FF9933 0%, #FFFFFF 50%, #138808 100%);
+  --gradient-saffron-glow: radial-gradient(circle, rgba(255, 153, 51, 0.25) 0%, transparent 70%);
+  --gradient-green-glow: radial-gradient(circle, rgba(19, 136, 8, 0.22) 0%, transparent 70%);
+  --gradient-navy-glass: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(248, 250, 252, 0.85));
+}
+
+.gradient-tiranga-btn {
+  background: linear-gradient(135deg, #FF9933 0%, #F57C00 48%, #138808 100%);
+  color: #FFFFFF !important;
+  font-weight: 700;
+  box-shadow: 0 4px 16px rgba(255, 153, 51, 0.28), 0 1px 3px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.gradient-tiranga-btn:hover {
+  box-shadow: 0 6px 20px rgba(255, 153, 51, 0.38), 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.tiranga-accent-bar {
+  height: 3px;
+  background: linear-gradient(90deg, #FF9933 0%, #FFFFFF 50%, #138808 100%);
+  border-radius: 9999px;
+}
+
+.tiranga-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: rgba(255, 153, 51, 0.1);
+  color: #D97706;
+  border: 1px solid rgba(255, 153, 51, 0.25);
+}
+
+.tiranga-pill-active {
+  background: linear-gradient(135deg, rgba(255, 153, 51, 0.15) 0%, rgba(19, 136, 8, 0.12) 100%);
+  color: var(--tiranga-navy-deep);
+  border: 1px solid rgba(255, 153, 51, 0.35);
+  font-weight: 700;
+}

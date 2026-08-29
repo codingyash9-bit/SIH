@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/prototypedata.ts","./src/vite-env.d.ts","./src/components/motion/ambientglow.tsx","./src/components/motion/magneticbutton.tsx","./src/components/motion/springmodal.tsx","./src/components/motion/tiltcard.tsx","./src/components/motion/index.ts"],"version":"5.7.3"}

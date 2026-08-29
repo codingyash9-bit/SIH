@@ -1,0 +1,14 @@
+# Sources
+
+- **Hackathon Ground Rules** — local PDF provided by Yash; 5 pages. Use as the primary reference for problem selection, research, MVP scope, technical approach, impact, internal-hackathon preparation, demo safeguards, common mistakes, and the recommended SIH workflow. Source: `D:\SIH Winners\Hackathon_Ground_Rules.pdf`
+
+- **MapLibre GL JS examples** — MapLibre project documentation; accessed 2026-08-25. Supports real-time GeoJSON updates, heatmaps, clusters, and interactive map-layer implementation. https://maplibre.org/maplibre-gl-js/docs/examples/
+- **deck.gl TripsLayer** — deck.gl project documentation; accessed 2026-08-25. Supports timestamped animated vehicle paths and fading trails for prototype trajectory playback. https://deck.gl/docs/api-reference/geo-layers/trips-layer
+- **OpenStreetMap Tile Usage Policy** — OpenStreetMap Foundation; accessed 2026-08-25. Establishes attribution, caching, usage, and no-bulk-download constraints; OSM data being open does not make community tile infrastructure unrestricted. https://operations.osmfoundation.org/policies/tiles/
+- **OpenFreeMap** — OpenFreeMap project; accessed 2026-08-25. Candidate OSM-derived vector basemap for development, with open-source self-hosting and a public instance; availability and terms must be rechecked before deployment. https://openfreemap.org/
+- **Ultralytics multi-object tracking documentation** — Ultralytics; accessed 2026-08-25. Documents YOLO tracking with BoT-SORT and ByteTrack. Adoption remains subject to dataset benchmarking and licence review. https://docs.ultralytics.com/modes/track/
+- **NVIDIA DeepStream repository and reference applications** — NVIDIA; accessed 2026-08-25. Candidate multi-stream GPU video analytics pipeline with decode, inference, tracking, and messaging; optional rather than mandatory for the prototype. https://github.com/NVIDIA/DeepStream
+- **View Transition API** — MDN Web Docs; accessed 2026-08-25. Supports contextual transitions between web views; browser fallback and reduced-motion handling remain required. https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API
+- **Supabase PostGIS: Geo queries** — Supabase official documentation; accessed 2026-08-25. Supports PostGIS geography/geometry columns, longitude-latitude order, and GiST spatial indexes. https://supabase.com/docs/guides/database/extensions/postgis
+- **Supabase Row Level Security** — Supabase official documentation; accessed 2026-08-25. Supports RLS plus explicit grants for exposed tables and warns that views require secure handling. https://supabase.com/docs/guides/database/postgres/row-level-security
+- **Supabase Realtime database changes** — Supabase official documentation; accessed 2026-08-25. Supports Postgres Changes for simple prototypes and recommends Broadcast for stronger scalability and authorization. https://supabase.com/docs/guides/realtime/subscribing-to-database-changes
